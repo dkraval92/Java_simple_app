@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/arsalan9997/java_simple_app.git'
             }
         }
         stage('Build JAR') {
